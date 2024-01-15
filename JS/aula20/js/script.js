@@ -35,6 +35,8 @@
 }
 meuEscopo();
 
+
+// Outras formas de cancelar ou prever uma função default.
 // form.onsubmit = function (evento) {
 //     evento.preventDefault();
 //     alert(1);
