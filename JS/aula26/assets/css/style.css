@@ -77,3 +77,12 @@ form button:active {
 section li {
     list-style: none;
 }
+
+.paragrafo-resultado, .bad {
+    background: #11e49e;
+    padding: 10px 20px;
+}
+
+.bad {
+    background-color: rgb(248, 123, 123);
+}

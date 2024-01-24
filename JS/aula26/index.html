@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo HTML</title>
+    <title>Calcule seu IMC</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -12,10 +12,19 @@
 
     <!-- formula: peso/ altura*altura -->
     <section class="container">
-        <h1>Tabela IMC</h1>
+        <h1>Calcule seu IMC</h1>
+        <form action="" id="formulario" method="post">
+            <label for="peso">Peso</label>
+            <input type="text" id="peso" name="peso">
+            
+            <label for="altura">Altura</label>
+            <input type="text" id="altura" name="altura">
+            <button type="submit">Enviar</button>
+        </form>
 
+        <div id="resultado"></div>
 
-        <div class="info">
+        <!--<div class="info">
             <h2>IMC</h2>
             <ul>
                 <li>Menos do que 18,5</li>
@@ -33,8 +42,8 @@
                 <li>Obesidade grau 1</li>
                 <li>Obesidade grau 2</li>
                 <li>Obesidade grau 3</li>
-            </ul>
-        </div>
+            </ul>>
+        </div> -->
 
 
 
